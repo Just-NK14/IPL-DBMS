@@ -62,3 +62,5 @@ The IPL-DBMS project is a comprehensive Database Management System designed to m
 ```
 
 This README provides users with detailed instructions on setting up and using the IPL-DBMS project.
+```
+NOTE: This is a incomplete project 
