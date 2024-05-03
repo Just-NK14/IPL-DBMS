@@ -34,10 +34,20 @@ The IPL-DBMS project is a comprehensive Database Management System designed to m
    - Create a new database named `ipl`.
    - Import the `ipl.sql` file provided in the repository into the `ipl` database.
 
-5. **Move the project files:**
+5. **Update localhost Configuration (if necessary):**
+   - If your localhost setup uses a different username, password, or port, make sure to update the database connection configuration in the PHP files (`delete.php`, `add.php`, `edit.php`, `login.php`, `etc.`) accordingly.
+   - The default database connection settings in the PHP files are:
+     ```php
+     $servername = "localhost:3307";
+     $username = "root";
+     $password = "";
+     $database = "ipl";
+     ```
+
+6. **Move the project files:**
    - Move the cloned repository folder (`IPL-DBMS`) to the `htdocs` directory inside your XAMPP installation directory (e.g., `C:\xampp\htdocs`).
 
-6. **Access the project:**
+7. **Access the project:**
    - Open your web browser and go to [http://localhost/IPL-DBMS](http://localhost/IPL-DBMS) to access the project.
 
 ## Usage
