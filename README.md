@@ -1,7 +1,16 @@
 # IPL Database Management System (DBMS) Project
 
 ## Overview
-This project is a Database Management System (DBMS) for managing records related to the Indian Premier League (IPL). It allows users to view information about IPL teams, their squads, points tables for all seasons, and statistics for the current season. Additionally, administrators can log in to update bowling and batting statistics, add new players, update existing player details, and delete players.
+The IPL-DBMS project is a comprehensive Database Management System designed to manage records related to the Indian Premier League (IPL). It provides users with a user-friendly interface to access various IPL-related data, including team information, player statistics, points tables for all seasons, and more. Administrators have additional privileges, allowing them to update player statistics, add new players, modify existing player details, and delete players from the database.
+
+## Features
+- **Team Information:** Users can view details about IPL teams, including their names, logos, home cities, and squad members.
+- **Player Statistics:** Users can access comprehensive statistics for IPL players, including batting and bowling records, such as total runs, strike rates, wickets, economy rates, and more.
+- **Points Tables:** Users can view points tables for all IPL seasons, providing insights into team standings and performance throughout each season.
+- **Live Season Stats:** Real-time statistics for the current IPL season, including player performances, team rankings, and match results.
+- **Admin Panel:** Administrators can log in to access privileged features, including:
+  - Updating Bowling and Batting Statistics: Admins can update player statistics such as runs scored, wickets taken, strike rates, and economy rates.
+  - Player Management: Admins can add new players to the database, edit existing player details, and delete players as needed.
 
 ## Technologies Used
 - **Frontend**: HTML, CSS, JavaScript
