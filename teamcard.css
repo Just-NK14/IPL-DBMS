@@ -1,0 +1,59 @@
+.csk .teamcards {
+    /* Specify the default image */
+    content: url('img/cskcard.png');
+    transition: all 0.3s ease-in-out;
+}
+
+.csk:hover .teamcards {
+    content: url('img/cskwin.png');
+}
+
+.gt .teamcards {
+    /* Specify the default image */
+    content: url('img/gtcard.png');
+    transition: all 0.3s ease-in-out;
+}
+
+.gt:hover .teamcards {
+    content: url('img/gtwin.png');
+}
+
+.kkr .teamcards {
+    /* Specify the default image */
+    content: url('img/kkrcard.png');
+    transition: all 0.3s ease-in-out;
+}
+
+.kkr:hover .teamcards {
+    content: url('img/kkrwin.png');
+}
+
+.mi .teamcards {
+    /* Specify the default image */
+    content: url('img/micard.png');
+    transition: all 0.3s ease-in-out;
+}
+
+.mi:hover .teamcards {
+    content: url('img/miwin.png');
+}
+
+.rr .teamcards {
+    /* Specify the default image */
+    content: url('img/rrcard.png');
+    transition: all 0.3s ease-in-out;
+}
+
+.rr:hover .teamcards {
+    content: url('img/rrwin.png');
+}
+
+.srh .teamcards {
+    /* Specify the default image */
+    content: url('img/srhcard.png');
+    transition: all 0.3s ease-in-out;
+}
+
+.srh:hover .teamcards {
+    content: url('img/srhwin.png');
+}
