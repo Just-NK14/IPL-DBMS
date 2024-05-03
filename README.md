@@ -33,6 +33,8 @@ The IPL-DBMS project is a comprehensive Database Management System designed to m
    - Open your web browser and go to [http://localhost/phpmyadmin](http://localhost/phpmyadmin).
    - Create a new database named `ipl`.
    - Import the `ipl.sql` file provided in the repository into the `ipl` database.
+   - Create another database named `logd`.
+   - Import the `logd.sql` file provided in the repository into the `logd` database.
 
 5. **Update localhost Configuration (if necessary):**
    - If your localhost setup uses a different username, password, or port, make sure to update the database connection configuration in the PHP files (`delete.php`, `add.php`, `edit.php`, `login.php`, `etc.`) accordingly.
